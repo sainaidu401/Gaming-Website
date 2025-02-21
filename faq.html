@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="faq.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <p>Not Sure About us?</p>
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          How to Download?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Get Down to Your favorite Game and acces the Link Given bellow for Each game for a succesfull download!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Free Demo
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Premium Games like Fifa,Nba do contain a Free demo given from our side as a service!
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What are the system requirment?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Each game has its own system requirement,however some just need a 8 gigs RAM and A SDD(sata) to run smoothly
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Why only Game.ing?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Using it may tell you...But aside we provide the best Gaming software directly from the root admin
+            !
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How can i be a part og Game.ing?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p></p>
+            Simple!..Contact us through social media or just register yourself with our testimonals.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How to know future updates?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Register Yourself With our testimonals and get updates trough your email Id every time we update a New version!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

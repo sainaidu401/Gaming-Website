@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card Payment</title>
+    <link rel="stylesheet" href="purchase.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Debit Card Payment</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="cardholder-name">Cardholder Name</label>
+                <input type="text" id="cardholder-name" name="cardholder-name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Expiration Date</label>
+                <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YYYY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" maxlength="3" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="accept-terms" name="accept-terms" required>
+                <label for="accept-terms">Accept All Terms</label>
+            </div>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
