@@ -1,57 +1,60 @@
 # Gaming Website
 
-Welcome to the Gaming Website, a project built using HTML and CSS fundamentals to showcase a simple yet engaging gaming platform.
-
-## Project Overview
-This website provides an interactive experience for users, featuring multiple pages related to gaming, including:
-- **Home Page (`index.html`)** – The main landing page.
-- **Game Categories** – Classic, Multi, Free-to-Play sections.
-- **Purchase & Buy Now Pages** – Sections for purchasing games.
-- **FAQ & Feedback Sections** – For user queries and responses.
-- **Journey Page** – Showcasing the evolution of gaming.
-
-## Tech Stack
-- **HTML5** – Structuring the website.
-- **CSS3** – Styling and responsiveness.
-
-## Project Structure
-```
-/images            - Contains website assets (images, logos, etc.)
-Controller.html    - Controller-based game information
-Freew.html        - Free-to-play games section
-Multi.html        - Multiplayer gaming section
-buynow.html       - Purchase section
-classic.html      - Classic games category
-faq.html          - FAQ section
-feedback.html     - User feedback page
-journey.html      - Gaming history and evolution
-purchase.html     - Purchase details
-faq.css, purchase.css, styles.css  - Styling files
-README.md         - Project documentation
-index.html        - Main landing page
-```
+## Description
+This is a simple gaming website built using fundamental HTML and CSS. It features multiple web pages, including a home page, purchase page, FAQ section, and more.
 
 ## Features
-- Clean and structured UI
-- Multiple gaming categories
-- Responsive design
-- Informative sections
+- Multiple HTML pages (Home, Purchase, FAQ, Feedback, etc.)
+- Responsive design with CSS styling
+- Simple and intuitive user interface
+- Basic navigation between pages
+- Image assets for visual enhancement
 
-## How to Use
+## Technologies Used
+- HTML
+- CSS
+
+## File Structure
+```
+├── images/             # Folder containing website images
+├── Controller.html     # Controller page
+├── Freew.html         # Free version page
+├── Multi.html         # Multiplayer mode page
+├── README.md          # Project documentation
+├── buynow.html        # Purchase page
+├── classic.html       # Classic mode page
+├── faq.css            # Styles for the FAQ section
+├── faq.html           # Frequently Asked Questions page
+├── feedback.html      # User feedback form
+├── index.html         # Main landing page
+├── journey.html       # User journey page
+├── purchase.css       # Styles for purchase page
+├── purchase.html      # Purchase options page
+├── styles.css         # Main CSS file
+```
+
+## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/VardhanVelamakanni/gaming-website.git
+   ```sh
+   git clone https://github.com/your-username/repository-name.git
    ```
-2. Open `index.html` in a browser.
-3. Explore different sections of the website.
+2. Navigate to the project folder:
+   ```sh
+   cd repository-name
+   ```
+3. Open `index.html` in a browser.
 
-## Future Enhancements
-- Add JavaScript for interactivity
-- Implement game previews or demos
-- Improve mobile responsiveness
+## Screenshots
+![image](https://github.com/user-attachments/assets/21ed6c39-b0a2-4531-b9d7-9a62fb1a5414)
+![image](https://github.com/user-attachments/assets/5702ef59-96f5-4e5e-b80d-e93da0a85079)
+![image](https://github.com/user-attachments/assets/13fc17fc-5df4-4b31-b903-5d176c1fe7fc)
+![image](https://github.com/user-attachments/assets/dfa77346-31a9-4af9-8989-804ede35c4c0)
+![image](https://github.com/user-attachments/assets/ea06b979-77b4-409f-a377-30ec00010fff)
 
-## Contributing
-Feel free to contribute by submitting issues or pull requests.
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Contact
+For any queries, contact: [your-email@example.com](mailto:your-email@example.com)
+
