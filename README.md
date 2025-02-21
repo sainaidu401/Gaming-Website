@@ -55,6 +55,5 @@ This is a simple gaming website built using fundamental HTML and CSS. It feature
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
-## Contact
-For any queries, contact: [your-email@example.com](mailto:your-email@example.com)
+
 
