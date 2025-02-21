@@ -36,7 +36,7 @@ This is a simple gaming website built using fundamental HTML and CSS. It feature
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/VardhanVelamakanni/repository-name.git
    ```
 2. Navigate to the project folder:
    ```sh
